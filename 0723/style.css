@@ -14,20 +14,21 @@ html {
     margin: auto;
     font-family: 'Raleway', sans-serif;
 }
-
 img {
     width: 100px;
 }
 
 .logo {
     display: flex;
-    margin: auto;
     flex-direction: column;
+    
+    margin: auto;
     max-width: 500px;
-    padding: 1.5rem 0;
+    padding: 1.5em 0;
     align-items: center;
+    
 }
-
+/*
 .main {
     padding: 20px;
 
@@ -36,6 +37,7 @@ img {
 form {
     background-color: #fff;
     padding: 15px;
+    
     border-radius: 5px;
     display: flex;
 }
@@ -109,6 +111,6 @@ i {
 }
 
 .todo-list-item-fall {
-    transform: translateY(12rem) rotateZ(10deg);
+    transform: translateY(12rem) rotateZ(100deg);
     opacity: 0;
-}
+}*/

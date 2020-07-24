@@ -11,7 +11,7 @@ function handleSubmitForm(e) {
         addTodo(input.value);
     }
 
-    input.value = '';
+   //input.value = '';
 }
 
 function handleClickDeleteOrCheck(e) {
@@ -26,6 +26,8 @@ function handleClickDeleteOrCheck(e) {
 function handleClearAll(e) {
     document.querySelector('ul').innerHTML = '';
 }
+
+
 
 // Helpers
 function addTodo(todo) {
