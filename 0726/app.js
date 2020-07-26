@@ -31,6 +31,7 @@ function animatedForm() {
 function validateUser(user) {
     if(user.value.length < 6) {
         console.log('not enough characters');
+        alert('More Than 6 Words');
         error('rgb(189,87,87');
     }else{
         error("rgb(87,189,130)");
